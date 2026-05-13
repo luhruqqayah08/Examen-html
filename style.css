@@ -327,18 +327,6 @@ img {
   object-fit: cover;
 }
 
-.bien-badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  background: #1e3a8a;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 4px 12px;
-  border-radius: 999px;
-}
-
 .bien-body {
   padding: 20px;
 }
@@ -383,8 +371,8 @@ img {
 
 /*  STATS BANNER  */
 .stats-banner {
-  background: #1e3a8a;
-  padding: 50px 0;
+  background: #869edf;
+  padding: 40px 0;
 }
 
 .stats-grid {
