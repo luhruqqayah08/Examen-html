@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>acceuil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-inner">
+        <!-- LOGO + NOM -->
+        <a href="index.html" class="logo-nom">
+          <div class="logo">
+            <img src="logo.jpg" alt="" />
+          </div>
+          <div class="nom">
+            <strong>DAKAR IMMO</strong>
+            <span>Agence immobilière</span>
+          </div>
+        </a>
+
+        <!-- MENU BURGER (technique CSS pure) -->
+        <input type="checkbox" id="menuToggle" class="menu-checkbox" />
+        <label for="menuToggle" class="menu-toggle" aria-label="Ouvrir le menu">
+          <span></span>
+        </label>
+
+        <!-- NAVIGATION -->
+        <nav class="nav">
+          <a href="index.html">Accueil</a>
+          <a href="biens.html">Biens</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">A propos</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" id="accueil">
+        <!-- IMAGE DE FOND -->
+        <img src="image d'immeuble.avif" alt="" class="ImmeubleDakar" />
+
+        <!-- CONTENU PAR DESSUS -->
+        <div class="container hero-content">
+          <div class="hero-badge">N°1 de l'immobilier à Dakar</div>
+
+          <h1>Trouvez votre logement idéal à Dakar</h1>
+
+          <p>
+            DAKAR IMMO vous accompagne dans l'achat, la vente et la location de
+            biens immobiliers avec professionnalisme et transparence.
+          </p>
+
+          <div class="hero-actions">
+            <a href="biens.html" class="premier-bouton">Voir les biens</a>
+            <a href="contact.html" class="deuxieme-bouton"
+              >Contacter l'agence</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- PRÉSENTATION AGENCE -->
+      <section class="presentation" id="presentation">
+        <div class="container presentation-box">
+          <div class="presentation-text">
+            <h2>Qui sommes-nous ?</h2>
+            <p>
+              Fondée il y a plus de 10 ans, DAKAR IMMO est votre partenaire de
+              confiance pour tous vos projets immobiliers à Dakar et ses
+              environs. Nous mettons notre expertise au service de vos besoins
+              avec sérieux et transparence.
+            </p>
+            <a href="about.html" class="premier-bouton">En savoir plus</a>
+          </div>
+
+          <div class="presentation-stats">
+            <div class="stat-card">
+              <strong>150+</strong>
+              <span>Biens vendus</span>
+            </div>
+            <div class="stat-card">
+              <strong>300+</strong>
+              <span>Clients accompagnés</span>
+            </div>
+            <div class="stat-card">
+              <strong>10</strong>
+              <span>Années d'expérience</span>
+            </div>
+            <div class="stat-card">
+              <strong>25</strong>
+              <span>Quartiers couverts</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BIENS POPULAIRES -->
+      <section class="biens-populaires" id="biens">
+        <div class="container">
+          <div class="section-header">
+            <h2>Biens populaires</h2>
+            <p>Découvrez notre sélection de biens disponibles</p>
+          </div>
+
+          <div class="biens-grid">
+            <!-- CARTE 1 -->
+            <div class="bien-card">
+              <div class="bien-img-wrap">
+                <img src="appartement.avif" alt="" class="bien-img" />
+                <span class="bien-badge">Appartement</span>
+              </div>
+              <div class="bien-body">
+                <h3>Appartement à Dakar Plateau</h3>
+                <p class="bien-loc">Dakar Plateau</p>
+                <p class="bien-prix">85 000 000 FCFA</p>
+                <div class="bien-info">
+                  <span>3 pièces</span>
+                  <span>95 m²</span>
+                </div>
+                <a href="biens.html" class="premier-bouton">Voir détails</a>
+              </div>
+            </div>
+
+            <!-- CARTE 2 -->
+            <div class="bien-card">
+              <div class="bien-img-wrap">
+                <img src="villa.jpg" alt="" class="bien-img" />
+                <span class="bien-badge">Villa</span>
+              </div>
+              <div class="bien-body">
+                <h3>Villa aux Almadies</h3>
+                <p class="bien-loc">Almadies</p>
+                <p class="bien-prix">250 000 000 FCFA</p>
+                <div class="bien-info">
+                  <span>6 pièces</span>
+                  <span>300 m²</span>
+                </div>
+                <a href="biens.html" class="premier-bouton">Voir détails</a>
+              </div>
+            </div>
+
+            <!-- CARTE 3 -->
+            <div class="bien-card">
+              <div class="bien-img-wrap">
+                <img src="studio.jpg" alt="" class="bien-img" />
+                <span class="bien-badge">Studio</span>
+              </div>
+              <div class="bien-body">
+                <h3>Studio à Sacré-Cœur</h3>
+                <p class="bien-loc">Sacré-Cœur</p>
+                <p class="bien-prix">150 000 FCFA / mois</p>
+                <div class="bien-info">
+                  <span>1 pièce</span>
+                  <span>35 m²</span>
+                </div>
+                <a href="biens.html" class="premier-bouton">Voir détails</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-footer">
+            <a href="biens.html" class="deuxieme-bouton">Voir tous les biens</a>
+          </div>
+        </div>
+      </section>
+      <!-- STATISTIQUES -->
+      <section class="stats-banner">
+        <div class="container stats-grid">
+          <div class="stats-item">
+            <strong>150+</strong>
+            <span>Biens vendus</span>
+          </div>
+
+          <div class="stats-item">
+            <strong>300+</strong>
+            <span>Clients accompagnés</span>
+          </div>
+
+          <div class="stats-item">
+            <strong>10</strong>
+            <span>Années d'expérience</span>
+          </div>
+
+          <div class="stats-item">
+            <strong>25</strong>
+            <span>Quartiers couverts</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <!-- COLONNE 1 : À propos -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="logo.jpg" alt="" />
+          </div>
+          <p>
+            Votre partenaire de confiance pour tous vos projets immobiliers à
+            Dakar depuis 2015.
+          </p>
+        </div>
+
+        <!-- COLONNE 2 : Liens rapides -->
+        <div class="footer-col">
+          <h4><i class="fa-solid fa-link"></i>Liens rapides</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="biens.html">Biens immobiliers</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- COLONNE 3 : Adresse -->
+        <div class="footer-col">
+          <h4><i class="fa-solid fa-location-arrow"></i>Adresse</h4>
+          <p>Avenue Léopold S. Senghor<br />Plateau, Dakar, Sénégal</p>
+          <p>+221 77 000 00 00</p>
+          <p>contact@dakarimmo.sn</p>
+        </div>
+
+        <!-- COLONNE 4 : Réseaux sociaux -->
+        <div class="footer-col">
+          <h4><i class="fa-brands fa-bluesky"></i>Réseaux sociaux</h4>
+          <div class="footer-socials">
+            <a href="#https://www.facebook.com/groups/1253838895613144/">
+              <i class="fa-brands fa-facebook"></i>Facebook</a
+            >
+            <a href="#https://sn.linkedin.com/in/dakar-immobilier-61718923b">
+              <i class="fa-brands fa-linkedin"></i>LinkedIn</a
+            >
+            <a href="#https://www.instagram.com/dakar.immo/">
+              <i class="fa-brands fa-instagram"></i>Instagram</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="footer-bottom">
+        <div class="container">
+          <p>Copyright © 2026 DAKAR IMMO. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
